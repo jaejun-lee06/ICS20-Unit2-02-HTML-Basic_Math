@@ -7,7 +7,6 @@
  */
 function doMathClicked() {
 
-  document.getElementById('add-math').innerHTML = '<p>6 + 5 = ' + (6 + 5) + '</p>'
-  document.getElementById('subtract-math').innerHTML = '<p>7 - 3 =  ' + (7 - 3) + '</p>'
-  document.getElementById('multiply-math').innerHTML = '<p>3 + 4 × 2 = ' + (3 + 4 * 2) + '</p>'
+  document.getElementById('area').innerHTML = '<p>The area is:  ' + (5 * 3) + 'cm².</p>'
+  document.getElementById('perimeter').innerHTML = '<p>The perimeter is: ' + ((5 + 3) * 2) + 'cm.</p>'
 }
